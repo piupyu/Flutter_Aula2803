@@ -29,8 +29,8 @@ class MyWidgetState extends State<MyWidget> {
           IconButton(
             onPressed: () {
               setState(() {
-               if (tamanho < 50){
-                tamanho =- 50;
+               if (tamanho > 50){
+                tamanho -= 50;
                };
               });
             },
